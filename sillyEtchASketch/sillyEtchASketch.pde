@@ -7,5 +7,5 @@ void setup()
 void mouseDragged(){
   strokeWeight(5);
   stroke(255/(640/mouseX), (255/(480/mouseY)), 0);
-  line(pmouseY*1.33, pmouseX/1.33, mouseY, mouseX);
+  line(pmouseY*1.33, pmouseX/1.33, mouseY*1.33, mouseX/1.33);
 }
